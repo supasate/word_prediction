@@ -1,15 +1,14 @@
 import curses
 
 # Initialize corpus statistics for prediction
-def init_stats(corpus_stats):
+def init_bigram_stats(corpus_stats):
 	# Read corpus file and split each word
 	corpus_file = open("small_corpus.txt", 'r')
 	words = corpus_file.read().split()
 
 	# Make statistics for each word (except last word)
 	for i in range(len(words) - 1):
-		current_word = words[i]
-		next_word = words[i + 1]
+		current_word, next_word = words[i], words[i + 1]
 
 		# Check that current word already exists or not
 		if current_word in corpus_stats: # if this word already exists
@@ -39,7 +38,7 @@ def get_last_space_index(string):
 
 # Init corpus statistics
 corpus_stats = dict()
-init_stats(corpus_stats)
+init_bigram_stats(corpus_stats)
 
 # Init command line screen 
 stdscr = curses.initscr()
