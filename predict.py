@@ -1,3 +1,6 @@
+##################################
+# Author: Supasate Choochaisri   #
+##################################
 import curses
 
 # Initialize corpus statistics for prediction

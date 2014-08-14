@@ -1,6 +1,4 @@
-#######################################
-#     This is a tiny lovely corpus.   #
-#######################################
+This is a tiny lovely corpus.
 How are you today?
 I'm fine.
 Thank you.
