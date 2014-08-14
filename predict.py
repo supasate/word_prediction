@@ -1,6 +1,8 @@
-##################################
-# Author: Supasate Choochaisri   #
-##################################
+#######################################
+#  Author: Supasate Choochaisri       #
+#  Contact: supasate@larngeartech.com #
+#  License: GNU GPL                   #
+#######################################
 import curses
 
 # Initialize corpus statistics for prediction
