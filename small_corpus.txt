@@ -1,4 +1,3 @@
-Hello World.
 How are you today?
 I'm fine.
 Thank you.
@@ -7,14 +6,16 @@ Hello guys.
 Man does it.
 My name is Somchai.
 This is a dog.
-This is a cat.
+Hello World.
+How are things?
 It is me.
 Moon is great.
 He is not my type.
 He is very handsome.
+This is a cat.
+Hello guys.
 She is my friend.
 She does not make it.
-How are things?
 I like pop music.
 Music is on the moon.
 Great hero says hello!
